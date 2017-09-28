@@ -11,6 +11,7 @@ while count<=100:#creating a while loop
 		if count>=100:
 			print("u won")
 		else:
+			#conditions for ladders
 			if count==8:
 				count=37
 				print("u climbed d ladder to ",count)
