@@ -13,6 +13,7 @@ while count<=100:
 		else:
 			print("u got ",r)
 			print("ur current location is ",count)
+			#conditions for ladders
 			if count==8:
 				count=37
 				print("u climbed d ladder to ",count)
@@ -28,6 +29,7 @@ while count<=100:
 			elif count==76:
 				count=97
 				print("u climbed d ladder to",count)
+			#conditions for snakes
 			elif count==38:
 				count=9
 				print("snake ate u,,,u come to",count)
