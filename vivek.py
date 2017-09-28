@@ -6,8 +6,8 @@ r=0
 while count<=100:
 	roll=input("press q to roll")
 	if roll=="q":
-		r=random.randint(1,6)
-		count=count+r
+		r=random.randint(1,6)#create an random integer
+		count=count+r#increments count by the value of r(dice)
 		if count>=100:
 			print("u won")
 		else:
